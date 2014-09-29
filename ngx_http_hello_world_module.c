@@ -6,13 +6,13 @@ typedef struct {
     ngx_str_t output_words;
 } ngx_http_hello_world_loc_conf_t;
 
-// To process HelloWorld command arguments
+// To process HelloWorld command arguments,define
 static char* ngx_http_hello_world(ngx_conf_t* cf, ngx_command_t* cmd, void* conf);
 
-// Allocate memory for HelloWorld command
+// Allocate memory for HelloWorld command,define
 static void* ngx_http_hello_world_create_loc_conf(ngx_conf_t* cf);
 
-// Copy HelloWorld argument to another place
+// Copy HelloWorld argument to another place,define
 static char* ngx_http_hello_world_merge_loc_conf(ngx_conf_t* cf, void* parent, void* child);
 
 // Structure for the HelloWorld command
